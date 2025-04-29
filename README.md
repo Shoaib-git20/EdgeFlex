@@ -1,4 +1,4 @@
-## Vision Transformer Pruning and Quantization Pipeline
+## EdgeFlex-Transformer: Transformer Inference for Edge Devices
 
 This repository contains a complete pipeline to compress Vision Transformer (ViT) models for deployment on memory-constrained edge devices. It includes:
 
@@ -25,21 +25,29 @@ This repository contains a complete pipeline to compress Vision Transformer (ViT
 These instructions will help you set up and run the notebook end-to-end on your local machine.
 
 ## 1. Clone the Repository
+```bash
 git clone https://github.com/your-username/vit-prune-quant.git
 cd vit-prune-quant
+```
 
 ## 2. Set Up Python Environment
 We recommend using a virtual environment:
+```bash
 python3 -m venv env
 source env/bin/activate  # On Windows: .\env\Scripts\activate
+```
 
 ## 3. Install Requirements
 Once the environment is activated, install dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 ## 4. Run the Notebook
 Launch Jupyter and open the notebook:
+```bash
 jupyter notebook
+```
 
 Then open vit_prune_quant_pipeline.ipynb and execute the cells in order.
 
